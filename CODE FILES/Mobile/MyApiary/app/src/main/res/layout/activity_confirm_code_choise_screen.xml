@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityConfirmCodeChoiseScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220sp"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginTop="60sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/confirmfor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="sans-serif-black"
+                android:text="Підтвердження аккаунту по:"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radiogroupchoiseConfirmAcc"
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:layout_marginBottom="10sp"
+                android:checkedButton="@+id/conform_mail_btn">
+
+                <RadioButton
+                    android:id="@+id/conform_mail_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Пошті"
+                    android:textSize="20sp"
+                    android:textStyle="normal"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/conform_phone_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Телефону"
+                    android:textSize="20sp"
+                    android:textStyle="normal"></RadioButton>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_send_confirm_code"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_marginHorizontal="25sp"
+                android:text="Надіслати код" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="42sp"
+            android:layout_marginTop="35sp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/inputConformCode"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginHorizontal="60sp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/custom_key_icon"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="Код"
+                android:maxLength="6"
+                android:inputType="number"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button_confirm_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40sp"
+                android:layout_marginTop="10sp"
+                android:enabled="true"
+                android:text="Підтвердити аккаунт" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApiary</string>
+    <string name="welcome_btn">Перейти до реєстрації</string>
+    <string name="welcome_ihaveaccount">Я вже маю аккаунт</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--  CONTEXT MENU STRINGS  -->
+    <string name="action_edit">Редагувати</string>
+    <string name="action_delete">Видалити</string>
+</resources>

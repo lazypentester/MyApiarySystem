@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="projects.myapiary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/beehelloicon"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApiary"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ActivityNotificationSinglePage"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityUpdateBeehiveScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityUpdateApiaryScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityDevicesScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityApiariesScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityAuthScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityBeehivesScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityConfirmCodeChoiseScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityHelpScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityInputNewpassScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityNewApiaryScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityNewbeehiveScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityNotificationScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityProfileScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityRegisterScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityResetPassScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivitySessionsScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivitySettingsScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivitySingleApiaryScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivitySingleBeehiveScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityTariffsScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityWelcomeScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

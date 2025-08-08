@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62sp"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="11sp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagePhone"
+                    android:layout_width="30sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="3sp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/location_svg1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_for_ip"
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:text="IP-адреса:"
+                        android:textAlignment="textStart"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_for_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:text="Дата входу:"
+                        android:textAlignment="textStart"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/text_for_geo"
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:text="Геолокація:"
+                        android:textAlignment="textStart"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/ip_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:text="185.145.125.57"
+                        android:textAlignment="textStart"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="19sp"
+                        android:layout_marginLeft="2sp"
+                        android:layout_marginTop="1sp"
+                        android:text="25.22.12 12:43"
+                        android:textAlignment="textStart"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/geolocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1sp"
+                        android:text="Ukraine, Kostyantinivka"
+                        android:textAlignment="textStart"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

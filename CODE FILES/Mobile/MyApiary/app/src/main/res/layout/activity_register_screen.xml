@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRegisterScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="30sp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/beehello" />
+
+        <TextView
+            android:id="@+id/regmyapiary"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="MyApiary"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52sp"
+            android:layout_marginHorizontal="25sp"
+            android:layout_marginTop="160sp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/inputPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginRight="5sp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Ім'я"
+                android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/person_icon_custom"
+                android:drawablePadding="12dp"/>
+
+            <EditText
+                android:id="@+id/inputPersonSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/person_icon_custom"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Прізвище"
+                android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175sp"
+            android:layout_marginHorizontal="25sp"
+            android:layout_marginTop="0sp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/inputRegPhone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="3sp"
+                android:ems="10"
+                android:hint="Телефон"
+                android:inputType="phone"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/phone_custom_icon"
+                android:drawablePadding="12dp" />
+
+            <EditText
+                android:id="@+id/inputRegEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="7sp"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/custom_email_icon"
+                android:drawablePadding="12dp" />
+
+            <EditText
+                android:id="@+id/inputRegPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="7sp"
+                android:ems="10"
+                android:hint="Пароль"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/custom_lock_icon"
+                android:drawablePadding="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="380sp">
+
+        <Button
+            android:id="@+id/button_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Зареєструватися"
+            android:layout_marginHorizontal="30sp"/>
+
+        <TextView
+            android:id="@+id/button_get_started_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/welcome_ihaveaccount"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    </RelativeLayout>

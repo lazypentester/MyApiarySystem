@@ -1,0 +1,9 @@
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\bin\Release\netstandard2.0\Auth.Common.deps.json
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\bin\Release\netstandard2.0\Auth.Common.dll
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\bin\Release\netstandard2.0\Auth.Common.pdb
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\obj\Release\netstandard2.0\Auth.Common.csprojAssemblyReference.cache
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\obj\Release\netstandard2.0\Auth.Common.AssemblyInfoInputs.cache
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\obj\Release\netstandard2.0\Auth.Common.AssemblyInfo.cs
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\obj\Release\netstandard2.0\Auth.Common.csproj.CoreCompileInputs.cache
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\obj\Release\netstandard2.0\Auth.Common.dll
+C:\Users\glebg\Desktop\Учеба 4 курс 2 семестр\Диплом\ДИПЛОМ\MyApiary\Auth.Common\obj\Release\netstandard2.0\Auth.Common.pdb

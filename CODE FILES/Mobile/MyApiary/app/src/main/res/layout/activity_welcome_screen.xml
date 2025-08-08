@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityWelcomeScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginTop="140sp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/beehello" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="MyApiary"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_get_started_reg"
+        android:layout_width="230sp"
+        android:layout_height="63sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="80sp"
+        android:layout_marginTop="410sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Почати роботу з MyApiary" />
+
+</RelativeLayout>

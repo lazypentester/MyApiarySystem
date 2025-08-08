@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3675" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/custom_email_icon.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/custom_input.xml" value="0.266" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/custom_key_icon.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/custom_lock_icon.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/email_notif_false_svg.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/error_notif.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_baseline_view_in_ar_24.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_chat.xml" value="0.277" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_email.xml" value="0.266" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_email_focused.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_exit.xml" value="0.277" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_key.xml" value="0.277" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_key_focused.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_key_settings.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_launcher_background.xml" value="0.29" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_lock.xml" value="0.266" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_lock_focused.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_new_email_interface_symbol_of_black_closed_envelope_svgrepo_com.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_new_letter_svg_false.xml" value="0.281" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_person.xml" value="0.277" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_person_focused.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_person_settings.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_phone.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_phone_focused.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_poi_earth_svg.xml" value="0.253" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_settings.xml" value="0.277" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/ic_smile.xml" value="0.228" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/left_arrow_svg.xml" value="0.2785" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/location_poi_svg2.xml" value="0.253" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/location_svg3.xml" value="0.253" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/location_svg4.xml" value="0.253" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/notification_svg_true.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/person_icon_custom.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/phone_custom_icon.xml" value="0.2695" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/drawable/smartphone_svg.xml" value="0.2825" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_apiaries_screen.xml" value="0.25" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_auth_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_beehives_screen.xml" value="0.4723618090452261" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_confirm_code_choise_screen.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_devices.xml" value="0.278125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_devices_screen.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_help_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_input_newpass_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_new_apiary_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_newbeehive_screen.xml" value="0.25" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_notification_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_notification_single_page.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_profile_screen.xml" value="0.5" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_register_screen.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_reset_pass_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_sessions_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_settings_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_single_apiary_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_single_beehive_screen.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_tariffs_screen.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_update_apiary.xml" value="0.2625" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_update_apiary_screen.xml" value="0.2765625" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_update_beehive_screen.xml" value="0.2765625" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/activity_welcome_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/apiaries_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/apiary_row.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/auth_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/beehive_row.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/beehives_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/confirm_code_choise_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/device_row.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/fragment_second.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/help_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/input_newpass_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/new_apiary_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/newbeehive_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/notification_row.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/notification_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/profile_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/register_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/reset_pass_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/session_row.xml" value="0.33" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/sessions_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/settings_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/single_apiary_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/single_beehive_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/tariffs_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/layout/welcome_screen.xml" value="0.3203125" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/menu/bottom_menu.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/menu/context_menu_apiaries.xml" value="0.2546875" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/menu/context_menu_beehives.xml" value="0.2765625" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.268" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.268" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/mipmap-anydpi-v26/launch.xml" value="0.268" />
+        <entry key="..\:/Users/glebg/Desktop/MyApiary/app/src/main/res/mipmap-anydpi-v26/launch_round.xml" value="0.268" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySingleBeehiveScreen">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="50sp"
+          android:orientation="vertical">
+
+          <Button
+              android:id="@+id/buttonGoBackFromBeehiveSingle"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginHorizontal="5sp"
+              android:layout_marginTop="1dp"
+              android:text="  назад"
+              app:rippleColor="#03A9F4"
+              android:backgroundTint="@color/white"
+              android:textColor="#e232"
+              android:textAlignment="textStart"
+              android:drawableLeft="@drawable/left_arrow_svg"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="90sp"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="30sp"
+              android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/textView4"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Налаштування вулика"
+                  android:textSize="20sp"
+                  android:textAlignment="center"/>
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="83sp"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+
+                  <ImageView
+                      android:id="@+id/imageView5"
+                      android:layout_width="50sp"
+                      android:layout_height="match_parent"
+                      app:srcCompat="@drawable/ic_baseline_view_in_ar_24"
+                      android:scaleType="centerInside"
+                      android:layout_marginLeft="25sp"/>
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="25sp"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="5sp">
+
+                      <TextView
+                          android:id="@+id/textView43"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Базова станція:"
+                          android:textSize="15sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="00sp">
+                      </TextView>
+
+                      <TextView
+                          android:id="@+id/textBaseStationName"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="назва"
+                          android:textSize="15sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="3sp">
+
+                      </TextView>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="25sp"
+                      android:orientation="horizontal">
+
+                      <TextView
+                          android:id="@+id/textView343"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Серійний номер:"
+                          android:textSize="15sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="00sp">
+                      </TextView>
+
+                      <TextView
+                          android:id="@+id/textBaseStationSerialNum"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="номер"
+                          android:textSize="15sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="3sp">
+
+                      </TextView>
+
+                  </LinearLayout>
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/linearLayoutTemperature"
+          android:layout_width="match_parent"
+          android:layout_height="120sp"
+          android:background="#E8E8E8"
+          android:orientation="horizontal">
+
+          <LinearLayout
+              android:layout_width="55sp"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+              <ImageView
+                  android:id="@+id/imageViewWorkingTemperature"
+                  android:layout_width="25sp"
+                  android:layout_height="25sp"
+                  android:layout_marginLeft="30sp"
+                  android:layout_marginTop="6sp"
+                  android:scaleType="centerInside"
+                  app:srcCompat="@drawable/close_square_svg" />
+
+              <ImageView
+                  android:id="@+id/imageView6"
+                  android:layout_width="match_parent"
+                  android:layout_height="70sp"
+                  android:layout_marginLeft="15sp"
+                  android:layout_marginTop="8sp"
+                  android:scaleType="centerInside"
+                  app:srcCompat="@drawable/temperature" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="35sp"
+                  android:orientation="horizontal">
+
+
+                  <TextView
+                      android:id="@+id/textView142"
+                      android:layout_width="75sp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="5sp"
+                      android:layout_marginTop="4sp"
+                      android:text="Датчик:"
+                      android:textSize="20sp" />
+
+                  <TextView
+                      android:id="@+id/textView28"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="3sp"
+                      android:layout_marginTop="4sp"
+                      android:text="температури"
+                      android:textSize="20sp" />
+
+                  <Switch
+                      android:id="@+id/switchTemperature"
+                      android:layout_width="50sp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="3sp"
+                      android:textAlignment="center"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                      tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="40sp"
+                  android:orientation="horizontal">
+
+                  <LinearLayout
+                      android:layout_width="113sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textView9"
+                          android:layout_width="100sp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10sp"
+                          android:layout_marginTop="10sp"
+                          android:text="Мін.значення:"
+                          android:textSize="15sp" />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="50sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+                      <EditText
+                          android:id="@+id/sensorTemperatureMinValue"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:ems="10"
+                          android:enabled="false"
+                          android:inputType="numberDecimal" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginLeft="5sp"
+                      android:orientation="horizontal">
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonTemperatureMinUp"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              android:backgroundTint="@color/white"
+                              android:drawableBottom="@drawable/arrow_up_svg_1"
+                              android:enabled="false"
+                              android:textColor="#e232"
+                              app:rippleColor="#03A9F4" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonTemperatureMinDown"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              android:backgroundTint="@color/white"
+                              android:drawableTop="@drawable/arrow_down_svg"
+                              android:enabled="false"
+                              android:textColor="#e232"
+                              app:rippleColor="#03A9F4" />
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="40sp"
+                  android:orientation="horizontal">
+
+                  <LinearLayout
+                      android:layout_width="113sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textView11"
+                          android:layout_width="109sp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10sp"
+                          android:text="Макс.значення:"
+                          android:textSize="15sp" />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="50sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+                      <EditText
+                          android:id="@+id/sensorTemperatureMaxValue"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:ems="10"
+                          android:enabled="false"
+                          android:inputType="numberDecimal" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginLeft="5sp"
+                      android:orientation="horizontal">
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonTemperatureMaxUp"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              android:backgroundTint="@color/white"
+                              android:drawableBottom="@drawable/arrow_up_svg_1"
+                              android:enabled="false"
+                              android:textColor="#e232"
+                              app:rippleColor="#03A9F4" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonTemperatureMaxDown"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              android:backgroundTint="@color/white"
+                              android:drawableTop="@drawable/arrow_down_svg"
+                              android:enabled="false"
+                              android:textColor="#e232"
+                              app:rippleColor="#03A9F4" />
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/linearLayoutNoise"
+          android:layout_width="match_parent"
+          android:layout_height="120sp"
+          android:orientation="horizontal"
+          android:background="#E8E8E8">
+
+          <LinearLayout
+              android:layout_width="55sp"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+              <ImageView
+                  android:id="@+id/imageWorkingNoise"
+                  android:layout_width="25sp"
+                  android:layout_height="25sp"
+                  app:srcCompat="@drawable/close_square_svg"
+                  android:scaleType="centerInside"
+                  android:layout_marginLeft="30sp"
+                  android:layout_marginTop="6sp"/>
+
+              <ImageView
+                  android:id="@+id/imageView12"
+                  android:layout_width="match_parent"
+                  android:layout_height="70sp"
+                  app:srcCompat="@drawable/noise"
+                  android:scaleType="centerInside"
+                  android:layout_marginLeft="15sp"
+                  android:layout_marginTop="8sp"
+                  android:layout_marginRight="7sp"/>
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="35sp"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/textView74"
+                      android:layout_width="75sp"
+                      android:layout_height="wrap_content"
+                      android:text="Датчик:"
+                      android:textSize="20sp"
+                      android:layout_marginTop="4sp"
+                      android:layout_marginLeft="5sp"/>
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="шуму"
+                      android:textSize="20sp"
+                      android:layout_marginTop="4sp"
+                      android:layout_marginLeft="3sp"/>
+
+                  <Switch
+                      android:id="@+id/switchNoise"
+                      android:layout_width="50sp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="3sp"
+                      android:textAlignment="center"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                      tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="40sp"
+                  android:orientation="horizontal">
+
+                  <LinearLayout
+                      android:layout_width="113sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textView14"
+                          android:layout_width="100sp"
+                          android:layout_height="wrap_content"
+                          android:text="Мін.значення:"
+                          android:textSize="15sp"
+                          android:layout_marginTop="10sp"
+                          android:layout_marginLeft="10sp"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="50sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+                      <EditText
+                          android:id="@+id/sensorNoiseMinValue"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:ems="10"
+                          android:inputType="numberDecimal"
+                          android:enabled="false"/>
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="5sp">
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonNoiseMinUp"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableBottom="@drawable/arrow_up_svg_1"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonNoiseMinDown"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableTop="@drawable/arrow_down_svg"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="40sp"
+                  android:orientation="horizontal">
+
+                  <LinearLayout
+                      android:layout_width="113sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textView15"
+                          android:layout_width="109sp"
+                          android:layout_height="wrap_content"
+                          android:text="Макс.значення:"
+                          android:textSize="15sp"
+                          android:layout_marginTop="10sp" />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="50sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+                      <EditText
+                          android:id="@+id/sensorNoiseMaxValue"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:ems="10"
+                          android:inputType="numberDecimal"
+                          android:enabled="false"/>
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="5sp">
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonNoiseMaxUp"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableBottom="@drawable/arrow_up_svg_1"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonNoiseMaxDown"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableTop="@drawable/arrow_down_svg"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/linearLayoutHumidity"
+          android:layout_width="match_parent"
+          android:layout_height="120sp"
+          android:orientation="horizontal"
+          android:background="#E8E8E8">
+
+          <LinearLayout
+              android:layout_width="55sp"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+              <ImageView
+                  android:id="@+id/imageWorkingHumidity"
+                  android:layout_width="25sp"
+                  android:layout_height="25sp"
+                  app:srcCompat="@drawable/close_square_svg"
+                  android:scaleType="centerInside"
+                  android:layout_marginLeft="30sp"
+                  android:layout_marginTop="6sp"/>
+
+              <ImageView
+                  android:id="@+id/imageView4"
+                  android:layout_width="match_parent"
+                  android:layout_height="70sp"
+                  app:srcCompat="@drawable/humidity"
+                  android:scaleType="centerInside"
+                  android:layout_marginLeft="15sp"
+                  android:layout_marginTop="8sp"
+                  android:layout_marginRight="10sp"/>
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="35sp"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/textView73"
+                      android:layout_width="75sp"
+                      android:layout_height="wrap_content"
+                      android:text="Датчик:"
+                      android:textSize="20sp"
+                      android:layout_marginTop="4sp"
+                      android:layout_marginLeft="5sp"/>
+
+                  <TextView
+                      android:id="@+id/textView85"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="вологості"
+                      android:textSize="20sp"
+                      android:layout_marginTop="4sp"
+                      android:layout_marginLeft="3sp"/>
+
+                  <Switch
+                      android:id="@+id/switchHumidity"
+                      android:layout_width="50sp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="3sp"
+                      android:textAlignment="center"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                      tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="40sp"
+                  android:orientation="horizontal">
+
+                  <LinearLayout
+                      android:layout_width="113sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="100sp"
+                          android:layout_height="wrap_content"
+                          android:text="Мін.значення:"
+                          android:textSize="15sp"
+                          android:layout_marginTop="10sp"
+                          android:layout_marginLeft="10sp"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="50sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+                      <EditText
+                          android:id="@+id/sensorHumidityMinValue"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:ems="10"
+                          android:inputType="numberDecimal"
+                          android:enabled="false"/>
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="5sp">
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonHumidityMinUp"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableBottom="@drawable/arrow_up_svg_1"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonHumidityMinDown"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableTop="@drawable/arrow_down_svg"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="40sp"
+                  android:orientation="horizontal">
+
+                  <LinearLayout
+                      android:layout_width="113sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textView6"
+                          android:layout_width="109sp"
+                          android:layout_height="wrap_content"
+                          android:text="Макс.значення:"
+                          android:textSize="15sp"
+                          android:layout_marginTop="10sp" />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="50sp"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+                      <EditText
+                          android:id="@+id/sensorHumidityMaxValue"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:ems="10"
+                          android:inputType="numberDecimal"
+                          android:enabled="false"/>
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="5sp">
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonHumidityMaxUp"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableBottom="@drawable/arrow_up_svg_1"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="50sp"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                          <Button
+                              android:id="@+id/buttonHumidityMaxDown"
+                              android:layout_width="40sp"
+                              android:layout_height="match_parent"
+                              android:layout_marginLeft="4sp"
+                              app:rippleColor="#03A9F4"
+                              android:backgroundTint="@color/white"
+                              android:textColor="#e232"
+                              android:drawableTop="@drawable/arrow_down_svg"
+                              android:enabled="false"/>
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="100sp"
+          android:orientation="vertical"
+          android:layout_marginTop="20sp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="50sp"
+              android:orientation="vertical">
+
+              <Button
+                  android:id="@+id/buttonUpdateSensorsByUser"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginHorizontal="70sp"
+                  android:layout_marginTop="1dp"
+                  android:text="Підтвердити"
+                  android:textAlignment="center" />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="50sp"
+              android:orientation="vertical">
+
+              <Button
+                  android:id="@+id/buttonCancelUpdateBeehiveSensors"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginHorizontal="70sp"
+                  android:layout_marginTop="1dp"
+                  android:text="Скасувати"
+                  app:rippleColor="#03A9F4"
+                  android:backgroundTint="@color/white"
+                  android:textColor="#e232"
+                  android:textAlignment="center" />
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+  </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/itemNotification"
+        android:layout_width="match_parent"
+        android:layout_height="70sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62sp"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="5sp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageNotificationIs"
+                    android:layout_width="50sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/email_notif_false_svg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/NotifName"
+                        android:layout_width="match_parent"
+                        android:layout_height="23sp"
+                        android:text="Повідомлення №1"
+                        android:textAlignment="textStart"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="8sp"/>
+
+                    <TextView
+                        android:id="@+id/NotifDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="19sp"
+                        android:layout_marginTop="1sp"
+                        android:text="25.22.12 12:43"
+                        android:textAlignment="textStart"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/notificationGetRead"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/right_arrov_svg_notif"
+                    android:scaleType="centerInside">
+                </ImageView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

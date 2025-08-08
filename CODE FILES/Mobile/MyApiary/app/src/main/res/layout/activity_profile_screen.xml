@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityProfileScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60sp"
+        android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/profile1" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="275sp"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewProf1"
+                    android:layout_width="56dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="112dp"
+                    android:layout_marginBottom="348dp"
+                    android:text="Ім'я:"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textViewProfEditName"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="344dp"
+                    android:textAlignment="textStart"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewProf2"
+                    android:layout_width="115dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="54dp"
+                    android:layout_marginBottom="348dp"
+                    android:text="Прізвище:"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textViewProfEditSurname"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="344dp"
+                    android:inputType="textPersonName"
+                    android:textAlignment="textStart"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewProf3"
+                    android:layout_width="75dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="95dp"
+                    android:layout_marginBottom="348dp"
+                    android:text="Email:"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textViewProfEditMail"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="344dp"
+                    android:inputType="textPersonName"
+                    android:textAlignment="textStart"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewProf4"
+                    android:layout_width="105dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginBottom="348dp"
+                    android:text="Телефон:"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textViewProfEditPhone"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="344dp"
+                    android:inputType="textPersonName"
+                    android:textAlignment="textStart"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewProf5"
+                    android:layout_width="87dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginBottom="348dp"
+                    android:text="Тариф:"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textViewProfEditTariff"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="344dp"
+                    android:inputType="textPersonName"
+                    android:textAlignment="textStart"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="90sp">
+
+            <Button
+                android:id="@+id/buttonSaveProfileSettings"
+                android:layout_width="189dp"
+                android:layout_height="48dp"
+                android:text="Зберегти"
+                android:textAlignment="center"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/buttonCancelSavingProfSettings"
+                android:layout_width="189dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/white"
+                android:text="Скасувати"
+                android:textAlignment="center"
+                android:textColor="#e232" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
