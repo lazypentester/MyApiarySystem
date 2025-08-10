@@ -22,8 +22,10 @@
 **Server:** C#
 
 <div align="center">
+      <p align="center">
     <img src="https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91" width="auto" height="auto">
     <img src="https://github.com/user-attachments/assets/314de8e2-ca1c-4904-9583-926f0c9cdcae" width="auto" height="auto">
+      </p>
 </div>
 
 ![Screenshot_2022-06-15-06-35-42-773_projects myapiary](https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91)
