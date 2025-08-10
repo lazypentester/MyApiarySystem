@@ -1,7 +1,7 @@
 # ⚡️ My Apiary System
 
 <p>🌐🐝 Программная система для автоматизации контроля состояния пасеки</p>
-<p>🌐🐝 Software system for automated control of apiary conditions</p>
+<p>🌐🐝 IoT-based apiary monitoring solution</p>
 
 ## ⚙️ Features
 
