@@ -25,9 +25,9 @@
 
 <div align="center">
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91" width="294" height="637" alt="Изображение 1" style="display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/user-attachments/assets/314de8e2-ca1c-4904-9583-926f0c9cdcae" width="294" height="637" alt="Изображение 2" style="display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/user-attachments/assets/9ebf1fb2-ca85-49f6-b3cb-c98d6f225aaf" width="294" height="637" alt="Изображение 2" style="display: inline-block;">
+    <img src="https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91" width="264" height="607" alt="Изображение 1" style="display: inline-block; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/314de8e2-ca1c-4904-9583-926f0c9cdcae" width="264" height="607" alt="Изображение 2" style="display: inline-block; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/9ebf1fb2-ca85-49f6-b3cb-c98d6f225aaf" width="264" height="607" alt="Изображение 2" style="display: inline-block;">
   </p>
 </div>
 
