@@ -1,7 +1,6 @@
 # ⚡️ My Apiary System
 
 <p>🌐🐝 ПРОГРАММНАЯ СИСТЕМА ДЛЯ АВТОМАТИЗАЦИИ КОНТРОЛЯ ПО СОСТОЯНИЮ ПАСИКИ</p>
-<br/>
 <p>🌐🐝 SOFTWARE SYSTEM FOR AUTOMATION OF CONTROL OF THE CONDITION OF THE PASIK</p>
 
 ## ⚙️ Features
@@ -22,11 +21,9 @@
 **Admin Client:** C# WinForms
 **Server:** C#
 
-<div align="center">
-  <p align="center">
-    <img src="https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91" alt="lazypentester" style="display: inline-block; margin-right: 20px;">
-    <img src="https://github.com/user-attachments/assets/314de8e2-ca1c-4904-9583-926f0c9cdcae" alt="lazypentester" style="display: inline-block;">
-  </p>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+    <img src="https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91" style="max-width: 45%; height: auto;">
+    <img src="https://github.com/user-attachments/assets/314de8e2-ca1c-4904-9583-926f0c9cdcae" style="max-width: 45%; height: auto;">
 </div>
 
 ![Screenshot_2022-06-15-06-35-42-773_projects myapiary](https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91)
