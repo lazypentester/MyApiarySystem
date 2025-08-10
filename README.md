@@ -1,7 +1,7 @@
 # ⚡️ My Apiary System
 
-<p>🌐🐝 ПРОГРАММНАЯ СИСТЕМА ДЛЯ АВТОМАТИЗАЦИИ КОНТРОЛЯ ПО СОСТОЯНИЮ ПАСИКИ</p>
-<p>🌐🐝 SOFTWARE SYSTEM FOR AUTOMATION OF CONTROL OF THE CONDITION OF THE PASIK</p>
+<p>🌐🐝 Программная система для автоматизации контроля состояния пасеки</p>
+<p>🌐🐝 Software system for automated control of apiary conditions</p>
 
 ## ⚙️ Features
 
