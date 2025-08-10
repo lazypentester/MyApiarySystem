@@ -22,10 +22,8 @@
 **Server:** C#
 
 <div align="center">
-    <div style="display: flex; justify-content: center;">
-        <img src="https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91" style="max-width: 45%; height: auto;">
-        <img src="https://github.com/user-attachments/assets/314de8e2-ca1c-4904-9583-926f0c9cdcae" style="max-width: 45%; height: auto;">
-    </div>
+    <img src="https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91" style="width: auto; height: auto;">
+    <img src="https://github.com/user-attachments/assets/314de8e2-ca1c-4904-9583-926f0c9cdcae" style="width: auto; height: auto;">
 </div>
 
 ![Screenshot_2022-06-15-06-35-42-773_projects myapiary](https://github.com/user-attachments/assets/6974de54-a72c-4da5-b607-e5e489f5de91)
